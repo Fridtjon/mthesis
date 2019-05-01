@@ -1,0 +1,8 @@
+Instance5/5_2.pcap contains 657 packets
+Instance5/5_2.pcap contains 0 non-ip packets
+SRC: ['193.157.198.10', '158.37.63.184', '158.37.63.175', '158.39.75.116'] 
+DST: ['158.37.63.184', '193.157.198.10', '158.37.63.175', '158.39.75.116']
+Non-duplicate packets: 328.5
+First packet in connection: Packet #1 2019-03-21 12:20:14.130846
+Last packet in connection: Packet #657 2019-03-21 12:20:45.954861
+Total time used: 31.824015

@@ -1,0 +1,10 @@
+
+#Total Packets Per Transaction, Excluding Gossip Traffic.
+To\From	Caliper	Instance 1	Instance 2	Instance 3	Instance 4	Instance 5
+Caliper	0.0	302.0	140.0	99.0	101.0	101.0 
+Instance 1	226.0	0.0	3.0	0.0	0.0	3.0 
+Instance 2	99.0	4.0	0.0	104.7	0.0	0.0 
+Instance 3	74.0	0.0	110.7	0.0	0.0	0.0 
+Instance 4	73.0	0.0	0.0	0.0	0.0	113.7 
+Instance 5	76.0	4.0	0.0	0.0	112.7	0.0 
+
