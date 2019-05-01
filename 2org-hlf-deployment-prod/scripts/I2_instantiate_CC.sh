@@ -1,0 +1,1 @@
+docker exec cli peer chaincode instantiate -o orderer0.example.com:7050 -C mychannel -n hashcode github.com/chaincode -v v0 -c '{"Args": ["100"]}'
