@@ -1,0 +1,44 @@
+---
+test:
+  clients:
+    type: local
+    number: 5
+  rounds:
+  - label: init
+    txNumber:
+    - 1
+    - 2
+    - 3
+    - 4
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 25
+    - type: fixed-rate
+      opts:
+        tps: 50
+    - type: fixed-rate
+      opts:
+        tps: 75
+    - type: fixed-rate
+      opts:
+        tps: 1000
+    callback: benchmark/hashcode/init.js
+  monitor:
+  type:
+  - docker
+  - process
+  docker:
+    name:
+    - http://158.39.75.116:2376/orderer0.example.com
+    - http://158.39.75.116:2376/zookeeper0
+    - http://158.39.75.116:2376/kafka0
+    - http://158.37.63.164:2376/peer0.org1.example.com
+    - http://158.37.63.165:2376/peer1.org1.example.com
+    - http://158.37.63.175:2376/peer0.org2.example.com
+    - http://158.37.63.184:2376/peer1.org2.example.com
+  process:
+  - command: node
+    arguments: local-client.js
+    multiOutput: avg
+  interval: 1
