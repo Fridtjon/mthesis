@@ -1,0 +1,8 @@
+#The throughput increase acieved when removing chaincode logic. 
+	10 tps	100 tps	1000 tps	10000 tps
+1 Client	0 %	33 %	153 %	46 %
+5 Clients	0 %	83 %	68 %	48 %
+20 Clients	0 %	65 %	154 %	65 %
+50 Clients	0 %	32 %	-49 %	135 %
+100 Clients	0 %	17 %	103 %	183 %
+
