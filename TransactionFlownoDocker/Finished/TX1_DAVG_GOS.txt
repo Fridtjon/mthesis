@@ -1,0 +1,10 @@
+
+#Average Bytes Per Transaction, Including Gossip Traffic.
+To\From	Caliper	Instance 1	Instance 2	Instance 3	Instance 4	Instance 5
+Caliper	0.0	3443.8	202.8	0.0	206.0	0.0 
+Instance 1	369.5	0.0	3807.7	0.0	0.0	3807.7 
+Instance 2	963.6	7.4	0.0	1161.7	0.0	0.0 
+Instance 3	0.0	0.0	896.9	0.0	0.0	0.0 
+Instance 4	90.0	0.0	0.0	0.0	0.0	925.8 
+Instance 5	0.0	7.4	0.0	0.0	1176.7	0.0 
+

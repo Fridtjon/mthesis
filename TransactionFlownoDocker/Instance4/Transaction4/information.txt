@@ -1,0 +1,8 @@
+Instance4/4_4.pcap contains 1889 packets
+Instance4/4_4.pcap contains 0 non-ip packets
+SRC: ['193.157.198.10', '158.37.63.175', '158.37.63.184'] 
+DST: ['158.37.63.175', '193.157.198.10', '158.37.63.184']
+Non-duplicate packets: 944.5
+First packet in connection: Packet #1 2019-03-21 12:21:21.478973
+Last packet in connection: Packet #1889 2019-03-21 12:23:30.814514
+Total time used: 129.335541

@@ -1,0 +1,8 @@
+Instance3/3_2.pcap contains 462 packets
+Instance3/3_2.pcap contains 0 non-ip packets
+SRC: ['158.37.63.165', '158.37.63.164'] 
+DST: ['158.37.63.164', '158.37.63.165']
+Non-duplicate packets: 231.0
+First packet in connection: Packet #1 2019-03-21 12:20:14.648753
+Last packet in connection: Packet #462 2019-03-21 12:20:45.890392
+Total time used: 31.241639
