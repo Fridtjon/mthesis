@@ -1,0 +1,45 @@
+---
+test:
+  clients:
+    type: local
+    number: 1
+  rounds:
+  - label: init
+    txNumber:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 10
+    - type: fixed-rate
+      opts:
+        tps: 10
+    - type: fixed-rate
+      opts:
+        tps: 10
+    - type: fixed-rate
+      opts:
+        tps: 10
+    callback: benchmark/hashcode_t4/medium_init_sleep.js
+monitor:
+  type:
+  - docker
+  - process
+  docker:
+    name:
+    - http://158.39.75.116:2376/orderer0.example.com
+    - http://158.39.75.116:2376/zookeeper0
+    - http://158.39.75.116:2376/kafka0
+    - http://158.37.63.164:2376/peer0.org1.example.com
+    - http://158.37.63.165:2376/peer1.org1.example.com
+    - http://158.37.63.175:2376/peer0.org2.example.com
+    - http://158.37.63.184:2376/peer1.org2.example.com
+  process:
+  - command: node
+    arguments: local-client.js
+    multiOutput: avg
+  interval: 1
