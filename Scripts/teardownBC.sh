@@ -1,0 +1,5 @@
+ssh fabusr@158.39.75.116 "/home/fabusr/hlf-deployment-prod/scripts/teardown.sh"
+ssh fabusr@158.37.63.164 "/home/fabusr/hlf-deployment-prod/scripts/teardown.sh"
+ssh fabusr@158.37.63.165 "/home/fabusr/hlf-deployment-prod/scripts/teardown.sh"
+ssh fabusr@158.37.63.175 "/home/fabusr/hlf-deployment-prod/scripts/teardown.sh"
+ssh fabusr@158.37.63.184 "/home/fabusr/hlf-deployment-prod/scripts/teardown.sh"
